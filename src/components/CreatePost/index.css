@@ -1,0 +1,94 @@
+.background {
+  background-image: url('https://cdn.dribbble.com/users/121337/screenshots/2359278/media/f2873ccb3f810e7edf44c5b8f494270b.gif');
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-second {
+  height: 100vh;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  overflow-y: scroll;
+  align-items: center;
+  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.containerItem {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  margin-top: 30px;
+}
+.label {
+  display: flex;
+  align-items: flex-start;
+  color: #2a2c30;
+  font-weight: 500;
+  font-family: 'sans-serif';
+  font-size: 30px;
+}
+.error {
+  display: flex;
+  align-items: flex-start;
+  color: #ad2e15;
+  font-weight: 800;
+  font-family: 'sans-serif';
+  margin-top: 10px;
+  font-size: 20px;
+}
+.heading {
+  display: flex;
+  align-items: flex-start;
+  color: #3d395c;
+  font-weight: 800;
+  font-family: 'roboto';
+  margin-top: 10px;
+  font-size: 40px;
+}
+.input {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-family: 'sans-serif';
+  font-size: 20px;
+}
+.onChange {
+  background-color: #2a2c30;
+}
+.noChange {
+  background-color: transparent;
+}
+.post-container {
+  background-image: url('');
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  overflow: scroll;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ul-list {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80vh;
+  justify-content: center;
+}
